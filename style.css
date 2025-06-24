@@ -179,5 +179,15 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #8B0000;
 }
+
+.tips {
+  background: white;
+  padding: 20px 30px;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin: 0 auto; /* center horizontally */
+}
+
