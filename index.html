@@ -1,43 +1,48 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Life Saver EDU</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
-    <h1>LIFE SAVER EDU: LEARN TO SAVE A LIFE</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="about.html">About Us</a> |
-      <a href="contact.html">Contact</a> |
-      <a href="learn.html">Learn</a>
-    </nav>
-    <img src="heart-icon.png" alt="Heart Icon" width="40" height="40">
+    <div class="navbar">
+      <div class="logo">
+        <h1>LIFE SAVER EDU: <span>LEARN TO SAVE A LIFE</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="learn.html">Learn</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <p>
-        Welcome to our website where we provide a free and easy way to learn CPR, First Aid, and emergency response skills — for everyone.
-      </p>
-      <p><strong>Why should we learn?</strong></p>
-      <ul>
-        <li>Knowledge saves lives</li>
-        <li>Prepare for emergencies before help arrives</li>
-        <li>Feel confident helping others</li>
-      </ul>
-    </section>
+<main class="main-content">
+  <section class="intro-text">
+    <p>
+      Welcome to our website where we provide a free and easy way to learn CPR, First Aid, and emergency response skills — for everyone.
+    </p>
+    <p><strong>Why should we learn?</strong></p>
+    <ul>
+      <li>Knowledge saves lives</li>
+      <li>Prepare for emergencies before help arrives</li>
+      <li>Feel confident helping others</li>
+    </ul>
+  </section>
 
-    <section>
-      <img src="firstaid.jpg" alt="First Aid Kit">
-    </section>
+  <section class="image-section">
+    <img src="firstaid.jpg" alt="First Aid Kit">
+  </section>
 
-    <section>
-      <a href="#aboutus">LET’S GET STARTED!</a>
-    </section>
-  </main>
+  <section class="cta-section">
+    <a href="learn.html" class="cta-button">LET’S GET STARTED!</a>
+  </section>
+</main>
+
 
 </body>
 </html>
