@@ -15,8 +15,8 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="aboutus.html">About Us</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="learn.html" class="active">Learn</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="learn.html">Learn</a></li>
         </ul>
       </nav>
       <div class="icon">
@@ -45,6 +45,7 @@
   function showPopup(event) {
     event.preventDefault();
     alert("Your message has been sent");
+    document.querySelector("form").reset();
   }
 </script>
   </div>
