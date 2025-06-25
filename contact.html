@@ -31,15 +31,22 @@
       Whether need help navigating the site or just want to give us feedback — don’t hesitate to reach out. 
       You can also contact us at <a href="mailto:e20241033310@siswa.upsi.edu.my">lifesaveredu@gmail.com</a>
     </div>
-    <form action="#" method="post">
-      <label for="email">Your email:</label>
-      <input type="email" id="email" name="email" required>
+<form action="#" method="post" onsubmit="showPopup(event)">
+  <label for="email">Your email:</label>
+  <input type="email" id="email" name="email" required>
 
-      <label for="message">Your message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+  <label for="message">Your message:</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
 
-      <button type="submit">Send Message</button>
-    </form>
+  <button type="submit">Send Message</button>
+</form>
+
+<script>
+  function showPopup(event) {
+    event.preventDefault();
+    alert("Your message has been sent");
+  }
+</script>
   </div>
 </body>
 </html>
